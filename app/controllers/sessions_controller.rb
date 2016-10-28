@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+  # The page that holds a form where user actually logs in
   def new
   end
 
