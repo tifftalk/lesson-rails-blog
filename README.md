@@ -60,7 +60,7 @@ Add a login template at `views/sessions/new.html.erb` with a form for logging in
 ```
 user = User.find_by(username: params[:username])
 session[:user_id] = user.id
-redirect_to “/”
+redirect_to "/"
 ```
 
 - Ensure you can manually navigate to /login and you get redirected back to your homepage after entering a valid username that matches an existing user.
